@@ -7,7 +7,7 @@ const imageUrl = 'https://res.cloudinary.com/df2rnoijw/image/upload/v1752404824/
 
 cmd({
     pattern: "menu",
-    react: "✅",
+    react: "📂",
     alias: ["panel", "commands"],
     desc: "බොට් විධාන ලැයිස්තුව ලබා ගන්න",
     category: "main",
@@ -17,15 +17,15 @@ cmd({
 async (conn, mek, m, { from, quoted, pushname, reply }) => {
     try {
         const selectionMessage = `
-*_HASHAN-MD COMMAND LIST ⚡_*
+*_PRIME ALPHA-XMD COMMAND LIST 🤖_*
 
-> *NAME BOT : HASHAN-MD*
-> *VERSION : 1.0*
-> *PREFIX : [.]*
-> *OWNER : HASHIYA TECH*
-> *RAM : UNLIMITED*
+> *🤖 NAME BOT : PRIME ALPHA-XMD*
+> *📡 VERSION : 1.0*
+> *🌟 PREFIX : [.]*
+> *👨‍💻 OWNER : SHERO ELIJAH*
+> *🚀 RAM : UNLIMITED*
 
-
+> *> ® ᴘᴏᴡᴇʀᴅ by ᴡʜɪᴛᴇ ᴀʟᴘʜᴀ ᴡᴏʟꜰ x ᴛᴇᴀᴍ 🐺
 ┌────────────────···▸*
 *│╭─────────────···▸*
 *┴│▸* 
@@ -43,7 +43,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *│╰────────────···▸▸*
 *└────────────────···▸*
 
-> ©POWERD BY HASHAN-MD
+> ©POWERD BY PRIME ALPHA-XMD
 `;
 
         const sentMsg = await conn.sendMessage(from, {
@@ -71,7 +71,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ANIMEGIRL*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '2': // SEARCH MENU
@@ -80,7 +80,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.VV*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '3': // AI MENU
@@ -91,7 +91,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.DEEPSEEK*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '4': // OWNER MENU
@@ -107,7 +107,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.HACK*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '5': // GROUP MENU
@@ -117,7 +117,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.MUTE*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '6': // INFO MENU
@@ -130,7 +130,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.ANIME*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '7': // CONVERTER MENU
@@ -139,7 +139,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.S*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '8': // WALLPAPERS MENU
@@ -150,7 +150,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.COUPLEPP*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '9': // WALLPAPER MENU
@@ -159,7 +159,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.IMG*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     case '10': // OTHER MENU
@@ -168,7 +168,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 *┋* *.HACK*
 *╰───────────────────❒*
 
-> ©POWERED BY HASHAN-MD
+> ©POWERED BY PRIME ALPHA-XMD
 `;
                         break;
                     default:
@@ -182,6 +182,6 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 
     } catch (e) {
         console.error(e);
-        reply(`*⚠ An error occurred: ${e.message}*`);
+        reply(`*⚠️ An error occurred: ${e.message}*`);
     }
 });
