@@ -7,7 +7,7 @@ const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 cmd({ 
     pattern: "mp4", 
     alias: ["video"], 
-    react: "🎦", 
+    react: "☘", 
     desc: "Download YouTube video", 
     category: "main", 
     use: '.mp4 < Yt url or Name >', 
@@ -29,7 +29,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
 
-        let ytmsg = `*HASHAN-𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 ✨️*
+        let ytmsg = `*PRIME ALPHA-XMD 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 ✨️*
 
 ┃ 🎶 *Title:* ${yts.title}
 ┃ ⏳ *Duration:* ${yts.timestamp}
@@ -44,15 +44,15 @@ cmd({
 
 _Reply with 1, 2 to this message to download the format you prefer._
 
-> *© 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-𝗠𝗗*`;
+> *© 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗣𝗥𝗜𝗠𝗘 𝗔𝗟𝗣𝗛𝗔-𝗫𝗠𝗗*`;
 
         let contextInfo = {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363369981563818@newsletter',
-                newsletterName: 'HASHAN-𝗠𝗗-V1',
+                newsletterJid: '120363419860434279@newsletter',
+                newsletterName: 'PRIME ALPHA-XMD-V1',
                 serverMessageId: 143
             }
         };
@@ -132,7 +132,7 @@ cmd({
             return reply("Failed to fetch the audio. Please try again later.");
         }
         
-        let ytmsg = `*HASHAN-𝗠𝗗 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 ✨️*
+        let ytmsg = `*PRIME ALPHA-XMD 𝗦𝗢𝗡𝗚 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 ✨️*
 
 ┃ 🎶 *Title:* ${yts.title}
 ┃ ⏳ *Duration:* ${yts.timestamp}
@@ -148,15 +148,15 @@ cmd({
 
 _Reply with 1, 2 or 3 to this message to download the format you prefer._
 
-> *©  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 HASHAN-𝗠𝗗*`;
+> *©  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 PRIME ALPHA-XMD*`;
         
         let contextInfo = {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363369981563818@newsletter',
-                newsletterName: 'HASHAN-𝗠𝗗-V1',
+                newsletterJid: '120363419860434279@newsletter',
+                newsletterName: 'PRIME ALPHA-XMD-V1',
                 serverMessageId: 143
             }
         };
