@@ -3,7 +3,7 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 const os = require("os");
 const { runtime } = require('../lib/functions');
-const imageUrl = 'https://res.cloudinary.com/df2rnoijw/image/upload/v1752404824/shkqo3nbxkhhbyej2lxm.jpg';
+const imageUrl = 'https://i.ibb.co/1tQYm6zR/4z-S9-P9-Rhm9.jpg';
 
 cmd({
     pattern: "menu",
