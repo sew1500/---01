@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, pushname, reply }) => {
 > *🤖 NAME BOT : PRIME ALPHA-XMD*
 > *📡 VERSION : 1.0*
 > *🌟 PREFIX : [.]*
-> *👨‍💻 OWNER : SHERO ELIJAH*
+> *👨‍💻 OWNER : SHERON ELIJAH*
 > *🚀 RAM : UNLIMITED*
 
 > *> ® ᴘᴏᴡᴇʀᴅ by ᴡʜɪᴛᴇ ᴀʟᴘʜᴀ ᴡᴏʟꜰ x ᴛᴇᴀᴍ 🐺
