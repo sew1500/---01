@@ -30,7 +30,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/3ykHcMgz/O6qt-Dy-T3a-V.jpg` },  // Ensure this URL is always accessible
+            image: { url: `https://i.ibb.co/1tQYm6zR/4z-S9-P9-Rhm9.jpg` },  // Ensure this URL is always accessible
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender], // Ensure m.sender is always a valid JID
